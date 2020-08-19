@@ -1,0 +1,11 @@
+{
+  "name": "BooksApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": "https://github.com/Krzysztof-G/BooksApi_tests.git",
+  "author": "Krzysztof Gumuła <k.gumula@icloud.com>"
+}
