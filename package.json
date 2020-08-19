@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules)/**/}*.test.js\"" 
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "chai": "4.2.0",
+    "express": "^4.17.1",
+    "mocha": "6.2.1"
   },
   "repository": "https://github.com/Krzysztof-G/BooksApi_tests.git",
   "author": "Krzysztof Gumuła <k.gumula@icloud.com>"
